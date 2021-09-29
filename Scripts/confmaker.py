@@ -3,7 +3,7 @@ import json
 maindomain = "media.lolisociety.com"
 movies = []
 
-with open(r'../Results/noimglinks.json', 'r', encoding="utf8") as f:
+with open(r'../Results/nolinks.json', 'r', encoding="utf8") as f:
     movies = json.loads(f.read())
 
 with open(r'../Results/movies.conf', 'a', encoding='utf8') as f:
